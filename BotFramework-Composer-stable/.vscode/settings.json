@@ -1,0 +1,20 @@
+{
+  "files.associations": {
+    "*.dialog": "json",
+    "*.botproj": "json",
+    "*.schema": "json"
+  },
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+  ],
+  "eslint.workingDirectories": ["./Composer"],
+  "typescript.tsdk": "./Composer/node_modules/typescript/lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
